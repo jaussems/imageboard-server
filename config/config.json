@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://rmpgdfxx:6CA-B7jsWUh0EczvZho9OVfWEUC1G1A2@tai.db.elephantsql.com:5432/rmpgdfxx",
+    "dialect": "postgress",
+    "operatorAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
